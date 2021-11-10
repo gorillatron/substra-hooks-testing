@@ -35,10 +35,9 @@ const BalanceViewer = () => {
 
   useEffect(() => {
     if (!w3Enabled) {
-      w3enable();
+      w3enable()
     }
   }, [w3Enabled])
-
 
   return (
       <>
